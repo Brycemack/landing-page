@@ -189,3 +189,43 @@ button {
     font-weight: 700;
 }
 
+.box-four{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 280px;
+}
+
+.call-action-box {
+    width: 1900px;
+    height: 100px;
+    background-color: rgb(56, 129, 246);
+    border-radius: 10px;
+    padding: 40px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-action-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-action-text1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.call-action-text2 {
+    color: white;
+    font-size: 24px;
+}
+
+.call-action-button {
+    border: 1px solid white;
+    height: 40px;
+}
